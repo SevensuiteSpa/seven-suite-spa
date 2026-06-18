@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seven Suite Spa | Fiumicino</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      color:#222;
+      background:#f6f6f6;
+    }
+
+    header{
+      height:70vh;
+      background: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85') center/cover no-repeat;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:3em;
+      margin:0;
+    }
+
+    header p{
+      font-size:1.2em;
+      margin-top:10px;
+    }
+
+    .btn{
+      margin-top:20px;
+      padding:12px 22px;
+      background:#00c2a8;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+    }
+
+    section{
+      max-width:1000px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    h2{
+      color:#00c2a8;
+      margin-bottom:15px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:15px;
+    }
+
+    .card{
+      background:white;
+      padding:15px;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#111;
+      color:white;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Seven Suite Spa</h1>
+  <p>Fiumicino (RM) • Relax, comfort e spa privata vicino aeroporto e mare</p>
+
+  <a class="btn" href="https://wa.me/39XXXXXXXXXX" target="_blank">
+    Prenota su WhatsApp
+  </a>
+</header>
+
+<section>
+  <h2>La Suite</h2>
+  <p>
+    Seven Suite Spa è un elegante appartamento turistico a Fiumicino,
+    a pochi minuti dall’aeroporto di Roma e dal mare.
+    Ideale per soggiorni di relax, lavoro o romantici.
+  </p>
+</section>
+
+<section>
+  <h2>Servizi</h2>
+
+  <div class="grid">
+    <div class="card">Wi-Fi gratuito</div>
+    <div class="card">Cucina attrezzata</div>
+    <div class="card">Vasca idromassaggio</div>
+    <div class="card">Vicino aeroporto</div>
+    <div class="card">Vicino al mare</div>
+    <div class="card">Ambiente moderno</div>
+  </div>
+</section>
+
+<section>
+  <h2>Ideale per</h2>
+
+  <div class="grid">
+    <div class="card">Coppie</div>
+    <div class="card">Viaggi di lavoro</div>
+    <div class="card">Weekend relax</div>
+    <div class="card">Soste aeroporto</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contatti</h2>
+  <p>📞 WhatsApp: +39 XXXXXXXX</p>
+  <p>📧 Email: tuaemail@example.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Seven Suite Spa - Fiumicino (RM)</p>
+</footer>
+
+</body>
+</html>
